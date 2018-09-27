@@ -7,8 +7,6 @@
     "build:prod": "webpack -p --mode production --config webpack.config.js",
     "build": "webpack --mode development",
     "dev-server": "cross-env NODE_ENV=development webpack-dev-server --mode development --config webpack.config.js",
-    "start": "node server.js",
-    "heroku-postbuild": "npm run build:prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
